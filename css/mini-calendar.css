@@ -1,0 +1,24 @@
+.miniCalendar {
+    border: 1px solid red;
+}
+
+.miniCalendar-date {
+    font: var(--body1-medium);
+}
+
+.miniCalendar-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.miniCalendar-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: .25rem;
+}
+
+.miniCalendar-month {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}

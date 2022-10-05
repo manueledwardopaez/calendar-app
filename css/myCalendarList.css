@@ -1,0 +1,33 @@
+.myCalendarList {
+    max-inline-size: 12.25rem;
+}
+
+.myCalendarList-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myCalendarList-primary h3 {
+    font: var(--body1-medium);
+}
+
+.myCalendarList-secondary {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+} 
+
+.calendarItem {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.calendarItem .button {
+    padding: 0;
+}
+
+.calendarItem p {
+    margin: 0;
+}
